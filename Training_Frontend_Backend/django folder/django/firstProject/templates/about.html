@@ -1,0 +1,15 @@
+{% load static%}
+<html>
+    <body>
+        {% block content %}
+        {% if user.is_authenticated %}
+        <center>
+<p>Travello is the world’s largest and most trusted travel community 🌏<br>
+Used by travellers in over 180 countries.<br> Travello is the best place to make travel friends whether you’re travelling or not.</p>
+</center>
+{%else%}
+<p> session has expired please login again.</p>
+{% endif %}
+{% endblock content %}
+</body>
+</html>
