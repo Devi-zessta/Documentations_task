@@ -1,0 +1,36 @@
+{% load static %}
+
+<html>
+
+    <head>
+        <title>
+            Home page
+        </title>
+    </head>
+    <body><center><h1>
+        
+
+                                        {% if user.is_authenticated %}
+
+										<li>Hello, {{ user.first_name }} </li>
+										<li><a href="logout">Logout</a></li>
+
+										{% else %}
+
+										<li><a href="Registration">Registration</a></li>
+										<li><a href="login">Login</a></li>
+
+										{% endif %}
+        
+        
+
+    </h1> 
+</center>  
+     <div>
+        <h5>{{ prod.product }}</h5>
+  <h5> {{ prod.price }}</h5>
+    </div>
+
+</body>
+
+</html>
