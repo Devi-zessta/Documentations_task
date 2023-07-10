@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href={%  static "style_sheets/index.css" %}>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionfavplaces">
+        <div class="main">
+            <h1 class="m-heading"> Favourite places </h1>
+            <a href="http://127.0.0.1:8000/tajmahal/">
+            <div class="card1 d-flex flex-row justify-content-center" >
+                <div>
+                    <h1 class="card-heading"> Tajmahal</h1>
+                    <p class="par"> If there was just one symbol to represent all of India, it would be the Taj Mahal</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png" class="image1" />
+            </div>
+            </a>
+            <a href="http://127.0.0.1:8000/golden/">
+            <div class="card1 d-flex flex-row justify-content-center" >
+                <div>
+                    <h1 class="card-heading"> Golden temple</h1>
+                    <p class="par"> Amritsar is world-famous for the beautiful and highly revered Golden Temple</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/golden-temple-img.png" class="image1" />
+            </div>
+            </a>
+            <a href="http://127.0.0.1:8000/mysore/">
+            <div class="card1 d-flex flex-row justify-content-center" >
+                <div>
+                    <h1 class="card-heading"> Mysore palace</h1>
+                    <p class="par"> The Mysore Palace is a historical palace and the royal residence at Mysore .</p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/mysore-palace-img.png" class="image1" />
+            </div>
+            </a>
+            <a href="http://127.0.0.1:8000/varanasi/">
+            <div class="card1 d-flex flex-row justify-content-center" >
+                <div>
+                    <h1 class="card-heading"> Varanasi temple</h1>
+                    <p class="par"> Varanasi Temple is most famous Hindu temples dedicated to Lord Shiva </p>
+                </div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/varanasi-temple-img.png" class="image1" />
+            </div>
+             </a>
+            <a href="http://127.0.0.1:8000/"> <button class="btn btn-primary" onclick="display('sectionhome')">Back</button> </a>
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>
