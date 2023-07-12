@@ -1,0 +1,23 @@
+29/03/2023
+-> two-way binding
+-> Lifting the state up
+
+
+->useContext
+->useMemo
+->useCallback
+->useEffect
+->useReduce
+->useState
+
+
+17/4/23
+->redox
+
+
+
+
+
+
+
+

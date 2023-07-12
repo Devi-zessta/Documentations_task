@@ -1,0 +1,120 @@
+first ->one expression.
+
+second->this.no need for an extra object. use it in that object.
+
+third->should not change basketProto.create a method addbasket method in new object(myBasket). the value should be incremented in the parent method.
+
+fourth->when removing 
+
+
+DOM -> pending
+HTML-> completed
+advance HTML-> completed
+CSS -> practice needed
+advanced CSS -> practice needed
+section-9(css grid+css layout)-> pending + practice needed
+cookies, local storage 
+
+
+
+need to look in:
+javascript:
+1. call, bind, this, super
+2. promises
+3. prototypes
+4. callback functions
+5. cookies, local storage, session storage
+6. Django tasks
+7. ui events,controls,forms
+8. flex,css grid+css layout
+
+schedule:
+->css  -> practice needed
+->advanced CSS -> practice needed
+->section-9(css grid+css layout)-> pending + practice needed
+->revise HTML, CSS, and javascript from the old book as well.
+->DOM 
+->need to look in
+
+Schedule: + project=> today class+look into it 
+->cookies, local storage
+->section-9(css grid+css layout)-> pending + practice needed
+->css  -> practice needed
+->advanced CSS -> practice needed
+->revise HTML, CSS, and javascript from the old book as well.
+->DOM 
+->need to look in
+
+
+13/03/2023:
+css grid+css layout
+Dom
+cookies,local storage
+task
+project
+
+forms and controls,ui events
+
+
+
+
+16/03/2023
+->DOM
+-> cookies, local storage, session storage
+-> ui events, controls, forms
+-> react js only introduction.
+
+17/03/2023
+->revise HTML, CSS, DOM,cookies,local storage,controls ,ui events,forms and javascript from the old book as well.
+before monday everything need to clear.and freshly start react.
+
+
+
+
+
+1/03/2023
+12:00 -1:00
+cookies, local storage
+1:00-4:00
+react
+5:00-7:00
+prepare ppt
+7:00-9:00
+session storage,forms and controls,ui events
+9:00-9:30
+dinner
+9:30-12:00
+session storage,forms and controls,ui events
+
+
+19/03/2023
+
+11:00-12:00 ->cookies, local storage,session storage
+12:00-1:30 ->controls,ui events
+1:30-2:00 ->eat
+2:00-4:00 -> react
+4:00-5:00 -> mutyalamma gudiki
+5:00 - 7:00 -> controls,ui events
+7:00 - 9:00 -> ppt prepare
+9:00 - 9:30 ->eat
+9:30 -12:00 ->react.
+
+21/3/2023
+
+-> project review
+-> section-5
+-> 1 q/a in cns
+-> shirt ask for return
+-> recieve bag
+-> money pay in clg(jvd)
+-> hosital + drama kajal
+-> ask bhanu for spects
+-> lenskart
+-> call hospital
+
+
+pending :
+->look into usecontext in udemy and also in google
+->forwarding refs -> useRef() 
+
+

@@ -1,0 +1,160 @@
+Need to explore:
+->toLocalString
+->getFullYear()
+ const month=props.date.toLocaleString('en-US',{month:'long'}); => august
+const month=props.date.toLocaleString('en-US',{month:'short'}); =>aug
+ const month=props.date.toLocaleString('en-US',{month:'2-digit'});=> 08
+
+
+    const day=props.date.toLocaleString('en-US',{day:'2-digit'});
+    const year=props.date.getFullYear();
+
+=> setTimeout()
+=> useState() 
+=>two way binding
+
+
+
+
+
+
+
+Answers:
+=>toLocalString:
+     toLocaleString() returns a date as a string, using locale settings:
+     example:const d = new Date();
+             let text = d.toLocaleString();
+
+             o/p: 3/21/2023, 2:41:33 PM
+     syntax:Date.toLocaleString(locales,options)
+     locales-> which language specific to use. ex:'en-US'
+     options-> The property names 'year', 'month', and 'day' used in the options object passed to toLocaleString() are specific to the Date object's toLocaleString() 		   method and cannot be replaced with arbitrary words.
+
+      These properties are used to specify which parts of the date should be included in the resulting string, and how they should be formatted. Here are some of the       	options that can be used in the options object:
+
+     'year': Specifies the year to be included in the resulting string. Possible values are 'numeric', '2-digit', and 'auto'.
+     'month': Specifies the month to be included in the resulting string. Possible values are 'numeric', '2-digit', 'narrow', 'short', and 'long'.
+     'day': Specifies the day to be included in the resulting string. Possible values are 'numeric', '2-digit', and 'auto'.
+     There are also other properties that can be used to specify options for formatting the time part of the date, such as 'hour', 'minute', and 'second'.
+
+     Example:
+     const month=props.date.toLocaleString('en-US',{month:'long'}); => august
+     const month=props.date.toLocaleString('en-US',{month:'short'}); =>aug
+     const month=props.date.toLocaleString('en-US',{month:'2-digit'});=> 08
+
+
+=> props
+      In React, props is an object containing key-value pairs of properties passed down from a parent component to a child component. Each key in the props object      	represents a prop name and the corresponding value represents the value of that prop.
+
+=>wrapper components
+     content between opening and closing tags just like html is called wrapper components.
+    
+    ->What's a wrapper component in react?
+           Wrapper components are components that surround unknown components and provide a default structure to display the child components.
+
+
+=>state:
+      In react every component is evaluated exactly once when they are called.after updating something that particular component should evaluate again.This is called   	state.
+      state adds reactivity to our application.
+
+
+      import { useState } from "react";
+      Notice that we are destructuring useState from react as it is a named export.
+
+ If we want to import single pieces from the library then we have to use {}.like "import {useState} from 'react'" instead of entire react object.useState is a function.useState() is called react hook.There will be other hooks as well. all hooks start with 'use'.all hooks should be called inside of a component functions.They cannot be called inside a nested functions,even inside of if statement.should be written at begining of funcion.only valid for function based components.
+
+useState() does not work.useState() requires default value.bcz with useState we are basically creating special kind of variable.when a variable changes, that particluar component is called again.
+
+useState hook always returns an array with exactly two elements.first is current state value,second is a function for updating that variable.
+const [title,setTitle]=useState(props.title);
+
+state really seperated on a per component basis
+const [title,setTitle]=useState(props.title); here props.title is assigned only for first time.and for remaining times when it is called again, updated value is used
+
+
+
+hooks only used in function based components.when they are more hooks then they wil evaluated in order they are.they should always written at  begining of the function.
+
+when updating state,consider previous state.
+
+two approches (useState()):
+
+const [enterInput,setInput]=useState({
+        enteredtitle:'',
+        enteredAmount:'',
+        enteredDate:''
+
+    })
+
+function TitleChangeHandler(event){
+       setInput((prevState)=>{
+           return (...prevState,enteredtitle:event.target.value)};// ...prevState will take snapshot of previous data.otherwise enterdtitle will overwrite everything    												with title.
+    }
+ 
+ <div className='new-expense__control'>
+            
+            <label>Title</label>
+            <input type='text'onChange={TitleChangeHandler}></input>
+</div> 
+
+
+
+second way:
+const [enteredtitle,ChangeTitle]=useState(' ');
+    const [enteredAmount,ChangeAmount]=useState(' ');
+    const [enteredDate,ChangeDate]=useState(' ');
+
+
+-> whenever we are using onSubmit={} in <form>,It actually reloads the page.we can avoid this by using 'event.preventDefault'.
+
+=> Two way binding:
+     It is specially used when using forms,to store data and also clear fields upon submiting the form.
+
+
+=> lifting the state up
+    this means sending data from child to parent.In Expense demo, we cannot establish communication between NewExpense.js and Expenses.js bcz there is no link between them.so they both communicate through parent App.js .
+data from child to parent: lifting state up
+data from parent to child:pass state data via props
+         
+
+=> stateless or dump or presentational component:
+     The component which doesn't maintain state
+
+=> {}, we use curly brases for dyanamic data .
+
+
+
+Section-6:
+
+=>styled components:
+        It is a third party library, a very popular one.which allows us to set pre-styled components with their own scoped styles
+
+=> inline styles:
+  <input type="text" onChange={goalInputChangeHandler} value={enteredValue} style={{borderColor: !isValid ? 'red' : 'black',background: !isValid ? 'salmon' : 'transparent'}}  placeholder={isValid===false ? 'eneter valid text' : 'enter text'}/>
+
+
+=> Dyanamically adding classes:
+   in css file:
+    
+    	.form-control.isValid input{
+  	background-color: rgb(233, 167, 167);
+	  border-color: red;
+		}
+
+	.form-control.isValid label{
+  		color:red}
+    
+    in js file:
+        <div className={`form-control ${!isValid ? 'isValid' : ''}`}>
+        <label>Course Goal</label>
+        <input type="text" onChange={goalInputChangeHandler} value={enteredValue} placeholder={isValid===false ? 'eneter valid text' : 'enter text'}/>
+      </div>
+
+
+
+
+     
+    
+
+
+

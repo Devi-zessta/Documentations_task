@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items: start;
+    border: 2px solid rgb(79, 174, 211);
+    border-radius: 10px;
+    width: 500px;
+   
+   
+}
+h1{
+    margin-left:15px;
+}
+body{
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+hr{
+    height:2px;
+    width:500px;
+    background-color: black;
+}
+.child{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+}  
+
+.inputWrapper{
+    display: flex;
+    width:100%;
+    flex-direction:column;
+    justify-content: space-between;
+} 
+ 
+#Add_to{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+.no-outline:focus {
+    outline: none;
+}

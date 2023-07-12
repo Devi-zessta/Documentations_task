@@ -1,0 +1,70 @@
+.container {
+    display: block;
+    width: 400px;
+    border: 5px solid rgb(83, 190, 233);
+    margin: auto;
+    padding: 5px;
+    border-radius: 9px;
+    margin-top: 170px;
+}
+
+h1 {
+    
+    font-size: 35px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+hr{
+    background-color:grey;
+    height: 2px;
+}
+
+ul {
+    padding: 0; 
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr 25fr 1fr;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#input_value {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: grey;
+
+}
+.no-outline:focus {
+    outline: none;
+}
+
+
+.checked {
+    text-decoration: line-through;
+    color: rgb(12, 2, 10);
+}
+li{
+    padding: 8px 0px;
+   
+
+}
+li:hover{
+    background-color: rgb(184, 209, 220);
+    cursor: pointer;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
