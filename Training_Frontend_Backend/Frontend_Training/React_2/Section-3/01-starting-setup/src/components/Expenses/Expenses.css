@@ -1,0 +1,19 @@
+/* .expense{
+    display: flex;
+    border:1px sold gray;
+    border-radius: 10px;
+    background-color: gray;
+    flex-direction: column;
+    width: 1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+} */
+
+.expense{
+    padding: 1rem;
+    background-color: rgb(31,31,31);
+    margin:2rem auto;
+    width:50rem;
+    max-width: 95%;
+    
+}

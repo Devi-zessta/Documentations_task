@@ -1,0 +1,14 @@
+.todolist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    text-decoration: line-through;
+}
+.completed {
+    text-decoration: line-through;
+  }
+
+  
