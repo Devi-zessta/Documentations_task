@@ -1,0 +1,110 @@
+.form {
+  width: 30rem;
+  background-color: rgb(131, 75, 244);
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  max-width: 20rem;
+  position: absolute;
+  top:40%;
+  left: 50%;
+  /* position: fixed;
+  z-index: 100;
+  top: 30vh;
+  left: 35vw;  */
+
+  /* border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  overflow: hidden;
+  z-index: 1; */
+
+}
+.modal {
+width: 100vw;
+height: 100vh;
+position: fixed;
+top:0px;
+left:0px;
+right:0px;
+bottom:0px;
+
+
+}
+.overlay{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.form textarea {
+  height: 4rem;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom:10px;
+}
+
+.form input {
+  height: 2rem;
+  border-radius: 5px;
+  margin-bottom:10px;
+  border: none;
+}
+.form input:focus {
+  outline: none;
+  border: 3px solid rgb(63, 46, 197);
+}
+.form textarea:focus {
+  border: 3px solid rgb(63, 46, 197);
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+
+.Submit{
+    background-color: rgb(49, 30, 224);
+    padding: 8px 13px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+.Cancel{
+   background-color: rgb(131, 75, 244);
+   border: none;
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+    
+}
+.backdrop{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  
+}
+
+@media only screen and (min-width:200) and (max-width:600) {
+    .form{
+        width: 5rem;
+    }
+
+}

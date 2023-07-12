@@ -1,0 +1,12 @@
+.UserList{
+display: flex;
+border: 1px solid black;
+background-color: white;
+width:50%;
+margin-top:2%;
+border-radius: 12px;
+flex-direction: column;
+/* align-items: column; */
+padding: 1rem;
+gap: 10px;
+}

@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 5rem;
+    align-items: center;
+    
+
+}
+.main a{
+    text-decoration: none;
+}
+a.active{
+    text-decoration: underline;
+
+}

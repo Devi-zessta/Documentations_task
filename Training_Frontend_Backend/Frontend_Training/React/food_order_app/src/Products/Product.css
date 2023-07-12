@@ -1,0 +1,15 @@
+.prod{
+    display: flex;
+    background-color: azure;
+    border-radius: 12px;
+    justify-content: space-between;
+    width:50%;
+    flex-direction: column;
+    
+}
+.arr{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}

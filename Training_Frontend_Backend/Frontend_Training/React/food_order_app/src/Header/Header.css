@@ -1,0 +1,19 @@
+.header{
+  
+    display: flex;
+    top:0px;
+    width:100%;
+    background-color: brown;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+   
+}
+.child{
+    color :white;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left:5rem;
+    margin-right:5rem;
+}
+

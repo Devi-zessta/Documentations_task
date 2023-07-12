@@ -1,0 +1,13 @@
+.count{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.but1{
+   margin-left: 3rem; 
+   background-color: rgb(195, 68, 68);
+   border-radius: 5px;
+   
+}

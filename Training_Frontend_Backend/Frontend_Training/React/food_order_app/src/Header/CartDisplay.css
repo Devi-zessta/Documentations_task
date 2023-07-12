@@ -1,0 +1,10 @@
+.disp{
+    display: flex;
+    background-color: antiquewhite;
+    
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+
+  
+}

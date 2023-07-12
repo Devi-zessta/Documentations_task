@@ -1,0 +1,19 @@
+import "./ExpenseItem.css";
+import ExpenseDate from "./ExpenseDate.js";
+import Card from "../UI/Card";
+
+function ExpenseItem(props) {
+  return (
+    <Card className="expense-item">
+      <ExpenseDate date={props.date}></ExpenseDate>
+      <div className=" expense-item__description ">
+        <h2>{props.title}</h2>
+        <div className="expense-item__price">${props.amount}</div>
+      </div>
+    </Card>
+  );
+}
+
+export default ExpenseItem;
+
+// <Card> is wrapper component.we can add some code in between opening and closing elements.

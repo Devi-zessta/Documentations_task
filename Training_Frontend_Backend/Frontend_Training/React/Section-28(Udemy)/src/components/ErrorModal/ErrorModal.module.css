@@ -1,0 +1,51 @@
+.error{
+    background-color:white;
+    border: 0.1px solid rgb(232, 231, 231);
+    width: 30rem;
+     position: fixed; 
+    box-shadow: 2px 2px 8px 2px #c9c9c9;
+    z-index: 100;
+    max-width: 600px;
+    border-radius: 10px;
+    top: 20vh;
+    left: 30vw;
+}
+
+.h{
+    background-color: rgb(245, 129, 148);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.error h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0.5rem;
+
+}
+.error p{
+
+     padding: 0.5rem ;
+     
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.modal{
+   
+        position: fixed; /* Positioning and size */
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(128,128,128,0.5);
+}
+
+@media (max-width:600px) {
+    .error{
+        width: 20rem;
+    }
+}

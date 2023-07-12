@@ -1,0 +1,87 @@
+.form {
+    width: 40rem;
+    margin: 2rem auto;
+    
+  }
+  
+  .form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form input {
+    display: block;
+    width: 100%;
+    font: inherit;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #f7f5ef;
+    border: none;
+    border-bottom: 2px solid #494844;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form button {
+    font: inherit;
+    background-color: #ebb002;
+    border: 1px solid #ebb002;
+    color: #201d0f;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: #ebc002;
+    border-color: #ebc002;
+  }
+
+
+
+
+
+
+
+
+
+/*  I tried.........
+ 
+.form{
+    width: 40rem;
+   
+    margin: 2rem auto;
+    
+}
+.form input{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: rgb(228, 225, 225);
+    height: 2rem;
+    
+}
+ .form label{
+    display: block;
+    margin-bottom:1rem;
+    font-weight: bold;
+    
+}
+.form button {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+button{
+   background-color: rgb(208, 208, 69);
+   width: 90px;
+   padding: 0.5rem;
+   border-radius: 8px;
+   border:none
+} */

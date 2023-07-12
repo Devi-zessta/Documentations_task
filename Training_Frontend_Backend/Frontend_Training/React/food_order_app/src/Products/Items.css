@@ -1,0 +1,15 @@
+ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.li1{
+    color: orange;
+    
+}
+
+.li2{
+    font-style: italic;
+    font-weight: normal;
+}
