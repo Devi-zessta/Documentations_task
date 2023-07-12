@@ -1,0 +1,65 @@
+body {
+	background-color: #f2f2f2;
+}
+
+.container {
+	margin: 50px auto;
+	width: 500px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	font-size: 32px;
+	margin-top: 0;
+}
+
+input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	width: 70%;
+}
+
+button {
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+}
+
+li {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+li:hover {
+	background-color: #d9d9d9;
+}
+
+li span {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.checked {
+	text-decoration: line-through;
+	color: #aaa;
+}
+
