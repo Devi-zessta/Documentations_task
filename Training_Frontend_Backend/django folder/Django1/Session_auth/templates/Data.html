@@ -1,0 +1,19 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet"href="/static/css.css">
+    </head>
+    <body >
+        <center>
+        <h1>Hello welcome to page that contains data</h1>
+         {% if user.is_authenticated %}
+        <h1> you are authenticated to view the content</h1>
+       <h1> Hello, {{ user.first_name }}</h1>
+       
+       {%else%}
+       <h1> please login to view content </h1>
+        {% endif %}
+        </center>
+
+
+    </body>

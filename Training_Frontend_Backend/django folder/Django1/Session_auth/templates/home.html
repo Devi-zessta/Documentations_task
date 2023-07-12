@@ -1,0 +1,25 @@
+{%load static%}
+<html>
+    <head>
+        <link rel="stylesheet"href="static/css.css">
+        <title>Home</title>
+    </head>
+    <body>
+     <center><h1>WELCOME TO HOME PAGE</h1>
+     {% if user.is_authenticated %}
+     <h1>Hello,{{user.first_name}}</h1>
+     <h1><a href="/accounts/logout">Logout</a></h1>
+     <h1><a href="Data/data">Data</a></h1>
+     {%else%}
+    <h1> <a href="accounts/register">Registration</a></h1>
+    <h1> <a href="accounts/login">Login </a> </h1>
+     
+    <h1><a href="Data/data">Data</a></h1>
+    {%endif%}
+     </center>
+     
+
+    </body>
+    </html>
+
+
