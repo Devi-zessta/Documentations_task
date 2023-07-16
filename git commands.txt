@@ -1,0 +1,45 @@
+git status
+git stash
+git pull
+git checkout -b <branch_name>
+git status
+git merge develop
+git stash pop
+git add 
+git commit -m ""
+git push
+
+feauture/ticketNO_aboutPR
+
+
+when we work on different branch:
+
+on branch=> git stash
+            git checkout develop
+            git pull
+            git checkout branch
+
+
+
+before start working on task=>
+  (develop) = git pull
+  (develop) = create branch
+  (branch)  = start working
+   before raising pr 
+  (branch) = git stash
+  (branch) = git checkout develop
+  (develop) = git pull
+  (develop) = git checkout branch
+  (branch) = git merge develop || git pull origin develop
+   (branch) =git stash pop
+    push
+
+
+when we want to shift to different branch for different work then:
+ (woring brancjh) = git stash 
+ (WB) = git checkout develop
+ (develop) = git pull
+ (deve) = git checkout other_branch
+ (OB) = work
+
+            

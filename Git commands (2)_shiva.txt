@@ -1,0 +1,126 @@
+git --version
+----------------------------------------------
+
+git config --global user.name "Tushar Deora"
+
+---------------------------------------------
+
+git config --global user.email "tushar.deora@zessta.com"
+
+-----------------------------------------------
+
+git config user.name 
+git config user.name
+
+----------------------------------------------
+
+git help
+
+git (name of topic)
+
+-------------------------------------------------
+
+cd ~ ----- default
+pwd ---- present directory
+cd .. ---- backward
+ls  ---- list in directory
+cd (folder name) --------- forward
+------------------------------------------------------
+git init ------initialses project 
+
+git add . ---- we r telling git to add or save  all changes of our project
+
+git commit -m "this is messsage u write" ------- it takes snap of work at this point of time, and it attaches it with a mesaage so if ever want to come back to make change , it will bring u this point of time.
+
+-------------------------------------------------------------
+git log   ----shows all commits, if u r going through log and END came, press 'q'
+
+git log --author="Tushar" 
+
+git status ------ give status of commit files or saved files
+
+git diff ---- (do it before git add .) its to tell difference between file that you modified. between working space and repository.
+
+git diff --staged   ---- diffeernce btween satging area and repository
+
+git commit -am "directly from working space to repository"  ----- no working area.
+
+
+ 
+working copy > staging area > repository
+
+same are for modifies files.
+
+--------------------------------------------------------------
+How to delete files
+
+git rm (filename)   --- removes file from repository and workplace
+
+git commit -m "deleted file"
+
+------------------------------------------------------------------
+
+for removing
+
+first remove than add and then commit.
+
+or 
+
+git mv spam_1.txt home_1.txt   -----renames file from spam to home.
+
+----------------------------------------------------------------
+move file from one folder to other.
+
+git mv spam_1.txt spamfolder/pudding.txt
+--------------------------------------------------------------
+how to undo changes
+
+first go and check git status and see the file name then'
+
+git checkout -- index.txt   ------------it takes the file from repository to working space
+
+---------------------------------------------------------------------------
+How to move file from staging area to working space 
+
+git reset HEAD profile.txt   ---- it takes file from staging area to working space
+-----------------------------------------------------------------------------------
+getting old version of repository
+first > second > third > second
+
+
+git log
+git checkout 01e7dba -- index.html     ------------- 01e7dba is commit no. it takes file to that point of time.
+git commit -am "hard commit directly from working space to repository"
+ 
+
+----------------------------------------------------------------------------------------
+         Github
+----------------------------------------------------------------------------------------
+
+How to connect gitbash ur computer to github
+
+git remote add (nickname of url of repo) (link of repo)
+
+git remote
+
+------------------------------------------------------------------------ 
+git push -u (nickname of repo) master    -------it pushes all the files to github it asks username and password
+
+---------------------------------------------------------------------------
+
+creating branch
+
+git checkout -b my-branch-name
+git push --set-upstream origin my-branch-name
+
+git checkout (branch name) ---- if branch already present then no '-b', it is used to come to that branch
+
+created branch ---> tushar-branch-testing
+
+
+
+how to undo commit
+
+git reset --hard (committ id(check by git log))
+
+
