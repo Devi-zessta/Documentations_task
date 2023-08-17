@@ -1,0 +1,12 @@
+.expense_form{
+    display: flex;
+    border-radius: 10px ;
+    border: 10px;
+    background-color: aquamarine;
+    /* width: 50%; */
+    /* margin: 200px auto; */
+    /* margin-bottom: 0px; */
+    margin:2rem auto;
+    width:50rem;
+    
+}
