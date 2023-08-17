@@ -1,0 +1,53 @@
+Need to look in after course completion:
+-> {request,params} in action.
+-> useFetcher()
+-> defer()
+-> flex box
+-> positions
+-> box modal
+-> grid
+-> RTK(redux extension)
+
+
+
+covered:
+-> useEffect()
+-> useReducer()
+-> useRef()
+-> React.memo() 
+-> useCallback()
+-> useMemo()
+-> Redux
+-> useSelector()
+-> routes
+-> useNavigate()
+-> useParams()
+-> loaders()
+-> useLoaderData()
+-> useNavigation()
+-> useRouteError()
+-> useRouteLoaderData()
+-> actions()
+-> formData()
+-> useSubmit()
+-> useActionData()
+-> useSearchParams()
+-> URL()
+-> 
+
+
+
+-> current project -> add errors and stop submitting , transition. also try with typescript
+-> Look into redux tool kit.
+-> when click on backdrop,it should close form ***
+-> should display no list items when there is no list items.***
+-> sending data to backend***
+-> handling loading state
+-> Add routing to project and add loaders and actions=> form,products,productsDetail...***
+-> use useNavigation for loading state
+-> Add testing to project
+-> Do project to practice "redux tool kit","routing"
+
+
+
+->lazy loading

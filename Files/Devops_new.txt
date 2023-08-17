@@ -1,0 +1,121 @@
+-> jira
+
+To store all the tasks that devops engineer has to perform.It can help you perform task easily.It helps to keep track of tasks.
+
+-> ELK
+
+stands for Elasticsearch Logstash Kibana. elasticsearch is a distributed NoSQL database where we can store messages in the form of JSON across distributed systems. 
+
+Logstash is a collector which collects data from different sources and then streams data in the form of data processing pipeline onto elasticsearch instance.
+
+imagine elasticsearch as a database and Logstash as a streaming component which pushes their logs onto an elasticsearch.
+
+kibana is nothing but UI component which displays data in the way we want over elasticsearch instance
+
+->Grafana
+
+
+It is a multiplatform open source analytics and interactive visualization web application.
+It provides charts,graphs and alerts
+Default port for grafana is 3000
+default user and password is admin
+which allows users to see their data via charts and graphs that are unified into one dashboard (or multiple dashboards!) for easier interpretation and understanding.
+
+
+->Prometheus
+
+It is a tool that allows you to analyse how your application and infrastructure are performing from metrics discovered by it.
+Prometheus components are written in Go languauge.
+Uses a multi-dimensional data model with time series data identified by metric name and key/value pairs.
+
+->kubernetes
+
+kubernetes is an open source container orchestration platform for deploying,managing and automating containers.It was developed by google.
+kubernetes helps to deploy your application more faster.kubernetes is cost efficient.cloud providers will manage kubernetes for us.
+Kubernetes keeps track of your container applications that are deployed into the cloud. 
+
+container orchestration: 
+
+
+->Docker
+
+Docker is a type of containerization platform that packages your application and all its dependencies together. This ensures that your application works seamlessly in any environment.
+
+It is a tool to create,run and deploy appications in container(package of code,libraries and dependencies)
+
+-> Ansible
+
+Ansible is an open-source automation platform that can be used to manage large groups of computer systems.
+it provide It automation,configuration management,and automatic deployment.
+
+->  Terraform (IaaC)
+
+Terraform is an IAC tool, used primarily by DevOps teams to automate various infrastructure tasks.
+
+Terraform can automate and manage Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), or even Software-as-a-Service (SaaS) level capabilities and build all these resources across all those providers in parallel. 
+
+-> jenkins
+
+Jenkins is a platform for creating a Continuous Integration/Continuous Delivery (CI/CD) environment.
+
+
+Jenkins is an open-source solution comprising an automation server to enable continuous integration and continuous delivery (CI/CD), automating the various stages of software development such as build, test, and deployment. 
+
+
+-> Apache Tomcat
+  (webserver to serve java based applications)
+It implements the Java specifications on the web server that works as the remote controller to the physical computer design to server the files. 
+
+->Nexus Repository
+
+It allows you to store, distribute, and retrieve build artifacts whenever it's required. 
+
+A DevOps artifact is a by-product produced during the software development process. It may consist of the project source code, dependencies, binaries or resources, and could be represented in different layout depending on the technology. Software artifacts are usually stored in a repository.
+
+-> SonarQube
+
+an open source platform for continuous inspection of code quality(and prepares report on that) to perform automatic reviews with static analysis of code to:
+
+Detect Bugs
+Code Smells
+Security Vulnerabilities
+Centralize Quality
+
+-> Bitbucket and Github 
+
+Bitbucket and Github are two of the largest web-based hosting services for source code and development projects.
+
+->Maven
+
+Maven is a build tool,It helps in project management.It helps in building and documenting the project.
+
+build tool:
+build tool is essential for processing of building.It is needed for following processes.
+1)generating source code
+2)generating documentation from source code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

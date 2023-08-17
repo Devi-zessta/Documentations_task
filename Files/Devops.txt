@@ -1,0 +1,75 @@
+-> maven/gradle:
+
+Two of the most popular DevOps tools for build automation and management are Gradle and Maven. Both tools offer a wide array of build tools including dependency management, debugging, and more to help users work through the entire build process.
+
+Maven is java build tool. It is a open source tool which is developed by Apache software foundation. To build java code maven and Garadle are top. First priority Maven.
+
+-> Bitbucket and Github 
+
+Bitbucket and Github are two of the largest web-based hosting services for source code and development projects.
+
+-> SonarQube
+
+an open source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to:
+
+Detect Bugs
+Code Smells
+Security Vulnerabilities
+Centralize Quality
+
+-> Nexus Repository (Artifactory Repo Server)
+
+Nexus is a Sonatype Artifactory repository manager [OSS]. It allows you to store, distribute, and retrieve build artifacts whenever it's required. Using Nexus, developers can easily access and deploy build artifacts in an organization from a single location.
+
+A DevOps artifact is a by-product produced during the software development process. It may consist of the project source code, dependencies, binaries or resources, and could be represented in different layout depending on the technology. Software artifacts are usually stored in a repository.
+
+-> Apache Tomcat
+
+It implements the Java specifications on the web server that works as the remote controller to the physical computer design to server the files. Using Internet connectivity, Tomcat renders and presents the data to the web application. This way, you can access data from the web server anywhere worldwide.
+
+-> jenkins
+
+Jenkins is a platform for creating a Continuous Integration/Continuous Delivery (CI/CD) environment. The system offers many different tools, languages, and automation tasks to aid in pipeline creation when developing and deploying programs.
+
+-> Terraform
+
+Terraform is an IAC tool, used primarily by DevOps teams to automate various infrastructure tasks.
+
+-> Ansible
+
+Ansible is an open-source automation platform that can be used to manage large groups of computer systems. It helps you automate application deployment, configuration management, cloud provisioning, updating workstations and servers, and many other tasks 
+
+->Docker
+
+Docker is a type of containerization platform that packages your application and all its dependencies together. This ensures that your application works seamlessly in any environment.
+
+-> Kubernetes
+
+Kubernetes keeps track of your container applications that are deployed into the cloud. 
+
+->Prometheus
+
+Prometheus is an open-source technology designed to provide monitoring and alerting functionality for cloud-native environments, including Kubernetes.
+
+-> Grafana
+
+which allows users to see their data via charts and graphs that are unified into one dashboard (or multiple dashboards!) for easier interpretation and understanding.
+
+->ELK
+
+Elasticsearch is a search and analytics engine. Logstash is a server‑side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to a "stash" like Elasticsearch. Kibana lets users visualize data with charts and graphs in Elasticsearch.
+
+-> jira
+
+To store all the tasks that devops engineer has to perform.It can help you perform task easily.It helps to keep track of tasks.
+
+->maven
+It is written in java.used to build projects written in c#,scala,Ruby.
+
+maven is a build tool,It helps in project management.It helps in building and documenting the project.
+
+build tool:
+build tool is essential for processing of building.It is needed for following processes.
+1)generating source code
+2)generating documentation from source code.
+3

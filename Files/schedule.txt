@@ -1,0 +1,200 @@
+
+
+22/3/2023
+
+->11,12, and 13 sections
+
+23/3/2023
+
+->14,15 and 16 sections along with question and answers
+
+daily:
+
+->close all tabs and shutdown computer daily
+->revise watever you do 
+->update clockify daily
+->avoid phone ediction completly even when eating.
+->use time to explore more
+->take care of face like apply creams
+->eat badam daily
+->exercise daily
+->avoid uneccessary money spending
+->avoid outside food
+
+
+
+
+->two way binding
+
+Two data binding means
+
+The data we changed in the view has updated the state.
+The data in the state has updated the view.
+
+example:
+import React,{useState} "react";
+
+function App(){
+   const [name,setName] = useState('');
+
+  const handleChange = (e)=>{
+     setName(e.target.value);
+  }
+
+ return (
+   <div>
+     <input onChange={handleChange} value={name} />
+     <h1>{name}</h1>
+   </div>
+ )
+}
+
+export default App;
+
+
+
+need to look in promises and asyn/await
+
+
+
+useState
+useEffect -
+useReducer
+reduce
+useRef
+useCallback -
+React.memo()
+Usememo -
+
+
+
+Usememo:
+Usememo is just like a usecallback.
+
+
+During initial rendering, useMemo(compute, dependencies) invokes compute , memoizes the calculation result, and returns it to the component. If the dependencies don't change during the next renderings, then useMemo() doesn't invoke compute , but returns the memoized value
+
+
+->what is difference between using state and normal variable in react component.
+
+
+In a React component, a state variable is used to store data that can change over time, whereas a normal variable is used to store data that does not change during the component's lifecycle.
+
+When a state variable is updated using the setState() method, React automatically re-renders the component to reflect the updated state. This means that when the state changes, any part of the UI that depends on the state will be updated accordingly.
+
+On the other hand, if you update a normal variable directly, React will not be aware of the change and will not trigger a re-render. This means that any UI that depends on the normal variable will not be updated.
+
+Here's an example to illustrate the difference:
+
+jsx
+Copy code
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  let normalCount = 0;
+
+  function increment() {
+    setCount(count + 1);      // updates the state variable
+    normalCount++;            // updates the normal variable
+  }
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <p>Normal count: {normalCount}</p>
+      <button onClick={increment}>Increment</button>
+    </div>
+  );
+}
+In this example, we have two variables: count and normalCount. count is a state variable initialized using the useState hook, while normalCount is a normal variable initialized with a value of 0.
+
+When the increment function is called, it updates both count and normalCount. However, because count is a state variable, React knows that it has been updated and triggers a re-render, causing the UI to update. On the other hand, since normalCount is a normal variable, React does not know that it has been updated, and the UI does not update.
+
+So in summary, you should use state variables when you have data that can change over time and affects the UI, and use normal variables when you have data that does not change during the component's lifecycle and does not affect the UI.
+
+
+
+->when state updates react component is re-rendered,which recreates everything.what is meant by recreating.how actually re-rendering make changes to code?
+
+
+
+Saturday and sunday
+->practice food order app
+->practice calculator
+->practice section -16
+->async and await
+->revise everything from documentation.
+->promises
+
+section-19,23,24(skip)
+
+
+
+Documentations:
+https://javascript.info/
+https://react.dev/
+
+9775370580
+
+Documents
+Youtube
+audio
+internal storage
+photos
+clean messages in watsapp and normal msg
+private pics
+update clockify
+
+
+28/04/2023
+->revise 15,16,17 sec,doc.
+->complete 18 section.
+
+->clean phone
+
+
+
+11/4(0.5) and 13/4
+7/4 (holiday)
+
+
+############
+
+30/03->6sec
+31/03->7
+
+3/4->8
+4/4->8
+5/4->9
+6/4->10
+
+10/4->10
+11/4(0.5)->10
+12/4->11
+14/4->11
+
+17/4->11
+18/4->12
+19/4->Task
+20/4->Task
+
+24/4->13
+25/4->14
+26/4->15
+27/4->16
+28/4->17
+
+################
+
+
+
+
+Apr 07, 2023 (Fri)
+	
+Apr 21, 2023 (Fri)
+
+
+grid in react
+
+
