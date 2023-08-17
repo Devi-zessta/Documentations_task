@@ -1,0 +1,27 @@
+
+<html>
+    <head>
+        <style>
+        ul {
+           list-style-type: none;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>To Do</h1>
+        <form action="data" method='POST'>
+            {% csrf_token %}
+            <input type = "text" name='todo'/>
+            
+            <input type="submit"/>
+        </form>
+        <ul style="style:none;">
+            {% for item in Items %}
+            <li>{{ item.ToDoItem }}</li>
+            {% endfor %}
+        </ul>
+        </center>
+    </body>
+</html>
